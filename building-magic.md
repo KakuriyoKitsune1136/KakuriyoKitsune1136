@@ -1,7 +1,8 @@
 ---
 description: >-
   A short Harry Potter themed Active Directory Machine that is apart of the
-  Bring The Pain lab by Hack Smarter.
+  Bring The Pain lab by Hack Smarter. Note: These are notes, this is not a
+  walk-through of this machine.
 ---
 
 # Building Magic
