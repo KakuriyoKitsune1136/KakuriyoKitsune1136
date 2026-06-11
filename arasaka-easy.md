@@ -4,7 +4,25 @@ description: >-
   a more thorough explanation will come later on, when I buy the lab for this.
 ---
 
-# Arasaka
+# Arasaka (easy)
+
+## Scenario <a href="#user-content-scenario" id="user-content-scenario"></a>
+
+author of the machine/lab: Henry Lever.
+
+#### Starting Credentials <a href="#user-content-starting-credentials" id="user-content-starting-credentials"></a>
+
+faraday:hacksmarter123
+
+#### Objective and Scope <a href="#user-content-objective-and-scope" id="user-content-objective-and-scope"></a>
+
+You are a member of the Hack Smarter Red Team. This penetration test will operate under an assumed breach scenario, starting with valid credentials for a standard domain user, `faraday`.
+
+The primary goal is to simulate a realistic attack, identifying and exploiting vulnerabilities to escalate privileges from a standard user to a Domain Administrator.
+
+
+
+A quick CTF with my notes:&#x20;
 
 ### Enumeration
 

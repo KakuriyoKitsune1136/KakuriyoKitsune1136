@@ -5,7 +5,39 @@ description: >-
   walk-through of this machine.
 ---
 
-# Building Magic
+# Building Magic(Easy)
+
+## Machine Overview <a href="#user-content-machine-overview" id="user-content-machine-overview"></a>
+
+AD Challenge Lab (Medium) - by Noah Heroldt & Haik Isikbay
+
+#### **Lab Overview** <a href="#user-content-lab-overview" id="user-content-lab-overview"></a>
+
+* **Target Machine:** "BuildingMagic machine" on Hack Smarter Labs.
+* **Difficulty:** This is an easy-rated **Active Directory** machine, similar to those found on exams like the **OSCP**.
+* **Learning Objectives:** The lab will cover the following key topics and techniques:
+  * Initial access and reconnaissance
+  * **Active Directory** enumeration using tools like **BloodHound**
+  * Privilege escalation and lateral movement
+  * **Kerberoasting**
+  * **NTLM theft**
+  * Remote management with **Evil-WinRM**
+  * Abusing the **SeBackupPrivilege**
+  * Full compromise to gain **domain admin** privileges
+
+#### **Key Concepts & Tools** <a href="#user-content-key-concepts--tools" id="user-content-key-concepts--tools"></a>
+
+* **BloodHound:** An open-source tool used to visualize and analyze relationships within an **Active Directory** environment. It helps to map out attack paths and identify privilege escalation vectors that might be difficult to find otherwise.
+* **Kerberoasting:** A post-exploitation attack that targets the **Kerberos** authentication protocol. An attacker with a valid domain user account can request a service ticket for a Service Principal Name (SPN), take the ticket offline, and then crack the password hash to obtain the plaintext password of a service account.
+* **NTLM Theft:** A technique where an attacker tricks a target machine into sending its **NTLM** hash to a server they control. The attacker can then attempt to crack the hash offline to obtain the user's password or use it in a "pass-the-hash" attack for authentication.
+* **Evil-WinRM:** A Ruby-based tool for remote management that exploits the **Windows Remote Management (WinRM)** protocol. It provides an interactive shell on the target system, allowing an attacker to execute commands and navigate the file system.
+* **SeBackupPrivilege:** A Windows privilege that allows a user to read any file on a system, regardless of its access control list (ACL). This can be abused by an attacker to copy sensitive files, such as the `NTDS.dit` file from a domain controller, for offline credential harvesting.
+
+
+
+The Lab w/my Notes:
+
+
 
 R.Widdleton compromise
 
