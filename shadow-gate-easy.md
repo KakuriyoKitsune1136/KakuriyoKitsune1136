@@ -12,6 +12,12 @@ The assessment will evaluate whether a motivated attacker with standard network 
 
 The Hack Smarter team has been authorized to perform a black box internal penetration test against the ShadowGate environment.
 
+
+
+These are my notes to this lab/machine:
+
+
+
 IIS is avaliabe:
 
 ![image.png](attachment:ec8395da-6be8-443a-a78c-1c556448461d:image.png)
