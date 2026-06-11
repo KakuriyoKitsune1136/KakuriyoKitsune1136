@@ -11,9 +11,9 @@ R.Widdleton compromise
 
 Credentials are valid with this user
 
-R.Widdleton:lilRonRon
+<figure><img src=".gitbook/assets/lilronron compromise.png" alt=""><figcaption></figcaption></figure>
 
-![image.png](attachment:50f0c8d6-51b9-46ad-8761-eb16e6e920ea:image.png)
+R.Widdleton:lilRonRon
 
 creds are valid: r.widdleton:lilronron
 
@@ -37,23 +37,21 @@ Compromising R.Haggard
 
 kerberaosted the user:r.haggard
 
-![image.png](attachment:c33b08c0-1300-4b28-b57f-ef2b26ee2468:image.png)
-
-Pasted image 20251108105609.png
+<figure><img src=".gitbook/assets/R haggard compromise.png" alt=""><figcaption></figcaption></figure>
 
 Can change H.Potch's password via users.
 
 if you can write to a file, it is always your next way forward.
 
-netexc has a slinky module:
+<figure><img src=".gitbook/assets/Slinky attack.png" alt=""><figcaption></figcaption></figure>
 
-![image.png](attachment:fc51b10c-e95d-4303-aec6-83ecf001f69c:image.png)
+netexc has a slinky module:
 
 Lets you create windows shortcuts with the icon attribute containing a URI to the specified server to the SMB shares.
 
 grabbed H.Grangon's hash as a result.
 
-![image.png](attachment:369c83d0-d657-418c-a349-ad3e11c4cb2b:image.png)
+<figure><img src=".gitbook/assets/H.Grangon.png" alt=""><figcaption></figcaption></figure>
 
 H.Grangon is a member of these groups.
 
@@ -505,18 +503,16 @@ Stopped: Sun Nov 9 12:14:27 2025
 
 Try: └─# evil-winrm -i 10.1.66.82 -u h.grangon -p magic4ever
 
-![image.png](attachment:029b4e18-9de9-40d5-acb4-f68a9b612db4:image.png)
+<figure><img src=".gitbook/assets/EvilWinrm.png" alt=""><figcaption></figcaption></figure>
 
 Changed Ruby gems version from 2.7 to 2.0
 
 Works.
 
-![image.png](attachment:e1516367-9f47-48de-94c4-e25c5f6848a2:image.png)
-
-![image.png](attachment:ee792dbb-894d-4f83-80b1-a23ab19e9b21:image.png)
+<figure><img src=".gitbook/assets/WinRM3.png" alt=""><figcaption></figcaption></figure>
 
 Compromised a.flatch
 
 Root.txt
 
-![image.png](attachment:742c241e-c0c7-4fe6-8bb1-c2356b3eb456:image.png)
+<figure><img src=".gitbook/assets/Root.png" alt=""><figcaption></figcaption></figure>
