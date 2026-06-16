@@ -17,3 +17,4 @@ Tried to get it to run today but it keep suggesting I have an yaml issue.
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+More to come on this lab later, as I learn to set it up, because it is fairly complex, and I think I might need to either, get more ram, or re-configure the system ram already being used by my machines.
