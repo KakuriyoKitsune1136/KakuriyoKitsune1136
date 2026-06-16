@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Tiffany's Hacking Notes](README.md)
+* [Game of Active Directory Lab setup](game-of-active-directory-lab-setup.md)
 * [Cowrie Honeypot Pentest](cowrie-honeypot-pentest.md)
 * [Shadow Gate (Easy)](shadow-gate-easy.md)
 * [Building Magic(Easy)](building-magic-easy.md)
