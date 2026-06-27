@@ -31,6 +31,15 @@ Can check these out but I will return to the API config earlier that I saw
 ```
 file.php?cv=file://config.php
 
+
 ```
 
-— I will finish this later —&#x20;
+We can use SQLi to find the Admin User, apparently according to one blog post I saw, you can USE SQlMAP, which to me makes sense.
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+admin@001admin
+
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+And this machine is done for now!
