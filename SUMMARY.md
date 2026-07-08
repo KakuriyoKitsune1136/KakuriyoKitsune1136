@@ -10,3 +10,4 @@
 * [Samurai (Easy)](samurai-easy.md)
 * [Martini AD (Easy)](martini-ad-easy.md)
 * [TryHackMe: Recruit](tryhackme-recruit.md)
+* [TryHackMe: Support](tryhackme-support.md)
