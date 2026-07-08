@@ -172,6 +172,6 @@ it works!
 
 specialadmin@support.thm:support@110
 
-
+Now I just need to actually get into the machine and figure that out.
 
 Reminder for me: Fix the Images.
