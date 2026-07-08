@@ -15,8 +15,6 @@ The Modern Day Port Scanner.
 
 ***
 
-### :[http://discord.skerritt.blog](http://discord.skerritt.blog) :
-
 : [https://github.com/RustScan/RustScan](https://github.com/RustScan/RustScan) :
 
 TreadStone was here 🚀
